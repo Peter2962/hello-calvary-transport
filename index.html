@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" class='app'>
+<head>
+	<title>Hello Calvary Public Journey</title>
+	<meta charset='utf-8'>
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+	<link rel='stylesheet' type='text/css' href='/dist/main.bundle.css'>
+	<link rel='preconnect' href='https://fonts.gstatic.com'>
+	<link href='https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap' rel='stylesheet'>
+	<link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+</head>
+<body class='app-body'>
+	<div class='app-zcirfeu52g app-body-ui bg-light'>
+		<div class='app-e85s5178e app-ui-default' v-if='$store.state.auth.requestedHandshake == true'>
+			<router-view v-if='$store.state.auth.authenticated == false'></router-view>
+			<div v-else>
+				<v-header></v-header>
+				<div class='app-container'>
+					<router-view :key='$route.fullPath'></router-view>
+				</div>
+			</div>
+		</div>
+		<div class='app-e6zn5pjf2l' v-else>
+			<Loader></Loader>
+		</div>
+	</div>
+	<script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.js'></script>
+	<script src='/dist/scripts.js'></script>
+</body>
+</html>

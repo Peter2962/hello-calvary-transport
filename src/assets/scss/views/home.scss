@@ -1,0 +1,22 @@
+.home-ui {
+	width: 100%;
+	height: calc(100vh - (75px));
+	background-color: #ddd;
+	.home-ui-query-box {
+		background-color: #ffffff;
+		width: 100%;
+		max-width: 300px;
+		min-height: 200px;
+		border-radius: 10px;
+	}
+	.home-ui-query-box-result {
+		background-color: #efefef;
+		height: 100%;
+		width: 100%;
+		border-radius: 10px;
+		.home-ui-query-box-result-trip {
+			border-radius: 5px;
+			background-color: #ffffff;
+		}
+	}
+}

@@ -1,0 +1,58 @@
+.loader-y0mc8gn3g {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	.loader-pfku6lh2g {
+		width: 100%;
+		height: 100%;
+		position: relative;
+		text-align: center;
+		padding: 15px;
+		.loader-cms7ea0oxi {
+			width: $loaderSpinnerSize;
+			height: $loaderSpinnerSize;
+			border-radius: 50%;
+			float: $loaderSpinnerPosition;
+			span {
+				width: 100%;
+				height: 100%;
+				display: block;
+				border: 3px solid $loaderSpinnerColor;
+				border-radius: 50%;
+				border-left: 3px solid transparent;
+				animation-name: spinner;
+				animation-duration: 1s;
+				animation-timing-function: linear;
+				animation-iteration-count: infinite;
+				animation-fill-mode: both;
+				animation-play-state: all;
+			}
+		}
+		.loader-h68sdrkuk4 {
+			display: -webkit-box;
+			-webkit-box-align: center;
+			-webkit-box-pack: center;
+			-moz-box-align: center;
+			-o-box-pack: center;
+			-moz-box-align: center;
+			-o-box-pack: center;
+			-ms-box-align: center;
+			-ms-box-pack: center;
+			vertical-align: baseline;
+			height: 100%;
+			h1 {
+				font-size: $loaderTextSize;
+				color: $loaderTextColor;
+				font-weight: $loaderTextFontWeight;
+				animation-name: fader;
+				animation-duration: 1s;
+				animation-timing-function: linear;
+				animation-iteration-count: infinite;
+				animation-fill-mode: both;
+				animation-play-state: all;
+			}
+		}
+	}
+}

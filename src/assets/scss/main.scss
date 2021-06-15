@@ -1,0 +1,12 @@
+$icon-font-path: "~bootstrap-sass/assets/fonts/bootstrap/";
+@import 'variables';
+@import 'mixins';
+@import 'animations';
+@import 'loader';
+@import 'layout';
+@import 'globals';
+@import '../vendor/css/sb-admin-2';
+@import 'components/sidebar';
+@import 'views/home';
+@import 'views/auth/login';
+@import 'views/auth/register';
