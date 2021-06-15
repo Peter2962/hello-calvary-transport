@@ -1,6 +1,6 @@
-# frontend
+# Modulux
 
-> LMS Frontend
+> Modulux Frontend
 
 ## Build Setup
 
